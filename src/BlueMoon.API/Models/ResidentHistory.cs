@@ -9,6 +9,8 @@ public class ResidenceHistory
     public DateTime? EndDate { get; set; }
     public string? Destination { get; set; }
     public string? Note { get; set; }
+    public string? PreviousValue { get; set; }
+    public string? NewValue { get; set; }
     public int? CreatedByUserId { get; set; }
 
     public Resident? Resident { get; set; }

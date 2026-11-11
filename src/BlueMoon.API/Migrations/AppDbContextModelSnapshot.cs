@@ -309,7 +309,13 @@ namespace BlueMoon.API.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("NewValue")
+                        .HasColumnType("text");
+
                     b.Property<string>("Note")
+                        .HasColumnType("text");
+
+                    b.Property<string>("PreviousValue")
                         .HasColumnType("text");
 
                     b.Property<int>("ResidentId")
